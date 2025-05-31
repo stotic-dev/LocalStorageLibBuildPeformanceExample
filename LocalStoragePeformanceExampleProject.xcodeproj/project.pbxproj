@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC2CF41D2DEAD134008D0B3E /* LocalStoragePeformanceExample in Frameworks */ = {isa = PBXBuildFile; productRef = BC2CF41C2DEAD134008D0B3E /* LocalStoragePeformanceExample */; };
+		BC2CF41F2DEAD134008D0B3E /* RealmClient in Frameworks */ = {isa = PBXBuildFile; productRef = BC2CF41E2DEAD134008D0B3E /* RealmClient */; };
+		BC2CF4212DEAD134008D0B3E /* SwiftDataClient in Frameworks */ = {isa = PBXBuildFile; productRef = BC2CF4202DEAD134008D0B3E /* SwiftDataClient */; };
 		BC49EA362DEABB9300894D99 /* LocalStoragePeformanceExample in Frameworks */ = {isa = PBXBuildFile; productRef = BC49EA352DEABB9300894D99 /* LocalStoragePeformanceExample */; };
 		BC49EA382DEABB9300894D99 /* RealmClient in Frameworks */ = {isa = PBXBuildFile; productRef = BC49EA372DEABB9300894D99 /* RealmClient */; };
 		BC49EA3A2DEABB9300894D99 /* SwiftDataClient in Frameworks */ = {isa = PBXBuildFile; productRef = BC49EA392DEABB9300894D99 /* SwiftDataClient */; };
@@ -35,8 +38,11 @@
 				BC49EA362DEABB9300894D99 /* LocalStoragePeformanceExample in Frameworks */,
 				BC49EA4D2DEACB1B00894D99 /* SwiftDataClient in Frameworks */,
 				BC49EA492DEACB1B00894D99 /* LocalStoragePeformanceExample in Frameworks */,
+				BC2CF41F2DEAD134008D0B3E /* RealmClient in Frameworks */,
 				BC49EA4B2DEACB1B00894D99 /* RealmClient in Frameworks */,
+				BC2CF41D2DEAD134008D0B3E /* LocalStoragePeformanceExample in Frameworks */,
 				BC49EA3A2DEABB9300894D99 /* SwiftDataClient in Frameworks */,
+				BC2CF4212DEAD134008D0B3E /* SwiftDataClient in Frameworks */,
 				BC49EA382DEABB9300894D99 /* RealmClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +92,9 @@
 				BC49EA482DEACB1B00894D99 /* LocalStoragePeformanceExample */,
 				BC49EA4A2DEACB1B00894D99 /* RealmClient */,
 				BC49EA4C2DEACB1B00894D99 /* SwiftDataClient */,
+				BC2CF41C2DEAD134008D0B3E /* LocalStoragePeformanceExample */,
+				BC2CF41E2DEAD134008D0B3E /* RealmClient */,
+				BC2CF4202DEAD134008D0B3E /* SwiftDataClient */,
 			);
 			productName = LocalStoragePeformanceExampleProject;
 			productReference = BC49EA262DEABAD100894D99 /* LocalStoragePeformanceExampleProject.app */;
@@ -116,7 +125,7 @@
 			mainGroup = BC49EA1D2DEABAD100894D99;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				BC49EA472DEACB1B00894D99 /* XCLocalSwiftPackageReference "../LocalStoragePeformanceExampleProject" */,
+				BC2CF41B2DEAD134008D0B3E /* XCLocalSwiftPackageReference "../LocalStorageLibBuildPeformanceExample" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BC49EA272DEABAD100894D99 /* Products */;
@@ -350,13 +359,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		BC49EA472DEACB1B00894D99 /* XCLocalSwiftPackageReference "../LocalStoragePeformanceExampleProject" */ = {
+		BC2CF41B2DEAD134008D0B3E /* XCLocalSwiftPackageReference "../LocalStorageLibBuildPeformanceExample" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../LocalStoragePeformanceExampleProject;
+			relativePath = ../LocalStorageLibBuildPeformanceExample;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BC2CF41C2DEAD134008D0B3E /* LocalStoragePeformanceExample */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LocalStoragePeformanceExample;
+		};
+		BC2CF41E2DEAD134008D0B3E /* RealmClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealmClient;
+		};
+		BC2CF4202DEAD134008D0B3E /* SwiftDataClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftDataClient;
+		};
 		BC49EA352DEABB9300894D99 /* LocalStoragePeformanceExample */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = LocalStoragePeformanceExample;

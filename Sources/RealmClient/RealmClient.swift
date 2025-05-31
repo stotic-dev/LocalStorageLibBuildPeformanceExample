@@ -29,7 +29,3 @@ public extension MemoRepository {
         await RealmModel.shared.value.delete(memo)
     })
 }
-
-#Preview {
-    RootView.initialize(memoRepository: MemoRepository.realmClientValue)
-}
