@@ -1,0 +1,2 @@
+# LocalStorageLibBuildPeformanceExample
+Swiftのローカルストレージライブラリのビルド速度を検証するリポジトリ
